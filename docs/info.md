@@ -9,11 +9,27 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This is a simple 2 bit adder circuit. AND, OR and XOR gates are used in this circuit.
 
 ## How to test
 
-Explain how to use your project
+This circuit implements a two-bit adder, where each input has one bit.
+
+`A + B + Cin = S with Cout`
+
+
+| Cin     | A       | B      | S      | Cout   |
+|---------|---------|--------|--------|--------|
+| 0       | 0       | 0      | 0      | 0      |
+| 0       | 0       | 1      | 1      | 0      |
+| 0       | 1       | 0      | 1      | 0      |
+| 0       | 1       | 1      | 0      | 1      |
+| 1       | 0       | 0      | 1      | 0      |
+| 1       | 0       | 1      | 0      | 1      |
+| 1       | 1       | 0      | 0      | 1      |
+| 1       | 1       | 1      | 1      | 1      |
+
+
 
 ## External hardware
 
